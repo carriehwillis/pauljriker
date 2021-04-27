@@ -96,6 +96,9 @@ a.download-btn {
   margin-bottom: 1em;
 }
 
+img.tweets {
+  max-height: 500px;
+}
 /* Pulse, with thanks to Ian Lunn (http://ianlunn.github.io/Hover/) */
 @-webkit-keyframes hvr-pulse {
   25% {
