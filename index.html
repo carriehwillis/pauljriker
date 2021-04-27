@@ -4,9 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Actor font -->
@@ -18,22 +16,53 @@
      <title>Paul Riker</title>
    </head>
    <body>
-     <div class="header">
-   <img class="logo" src="paul-logo.png" title="Logo showing Paul Riker's name"/>
-   <ul class="navrow">
-     <a href="index.html" title="About Paul"><li class="nav-item active">About</li></a>
-     <a href="works.html" title="Works and Awards"><li class="nav-item">Works</li></a>
-     <a href="contact.html" title="Contact Paul"><li class="nav-item">Contact</li></a>
- </div>
-
-<div class="content about">
-  <img class="photo" src="paul.jpg" title="A photo of Paul Riker sitting next to a statue and laughing as if in conversation.">
-    <p class="bio"><span class="bold">Paul Riker</span> is an MFA candidate at Purdue University. A finalist for the Iowa Review Award in Fiction, his work has been featured in Crack the Spine, Drunk Monkeys, Five on the Fifth, and elsewhere. He lives in Lafayette, IN.</p>
+<div class="wrapper">
+  <img class="logo img-fluid mx-auto d-block" src="paul-logo.png" alt="Logo showing Paul Riker's name"/>
+         <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon float-right"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav nav-fill w-100">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" title="About Paul">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="works.html" title="Works and Awards">Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cv.html" title="Curriculum Vitae">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" title="Contact Paul">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="teaching.html" title="Teaching Portfolio">Teaching</a>
+      </li>
+    </ul>
+  </div>
+         </nav>
+  <div class="container container-fluid">
+  <div class="row">
+    <div class="col-md-12 bio">
+    <img class="bio img-fluid float-xs-left mr-3 rounded" src="paul.jpg" title="A photo of Paul Riker sitting next to a statue and laughing as if in conversation.">
+    <p><span class="font-weight-bold">Paul Riker</span> was born and raised in Ann Arbor, Michigan, and is currently a Master of Fine Arts candidate in Creative Writing at Purdue University.</p>
+  <p>He was awarded the National Society of Arts and Letters' Holl Merit and Jones Merit Award, its top prize in literature for the state of Indiana. He was also a finalist for the 2020 Iowa Review Award in Fiction, as well as the 2021 Montana Prize in Fiction.</p>
+  <p>In addition, he is the recipient of multiple Purdue Literary Awards, including the Booth Tarkington Fiction Award for a Short Story by a Graduate Student, the CLA Dean's Award for Best Graduate Entry, and the Budd and Betty Knoll Award for Best of Contest.</p>
+  <p>His work has been featured in or is forthcoming in CutBank, The Nashville Review, Crack the Spine, Drunk Monkeys, and Five on the Fifth. He lives in Lafayette, Indiana, and is currently at work on a novel.</p>
+    </div>
+  </div>
+  </div>
 </div>
     <!-- JavaScript for use with Bootstrap -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <footer>
+      <div class="container container-fluid text-center"><p>Made with <span class="hvr-pulse">&hearts;</span> <span class="sr-only">love</span> by <a href="https://www.github.com/carriehwillis" target="_blank" title="Carrie Willis on GitHub">Carrie</a></p></div>
+    </footer>
+</body>
 </html>
